@@ -29,7 +29,7 @@ How to Run:-
   ./myarray
 3) Input Data File:
   This program must have an input data file named data.txt. File should exists in the same directory.
-4) Screenshots of finding an Integer, modifying an Integer, adding a New Integer, replacing an Integer.
+4) Screenshot of finding an Integer, modifying an Integer, adding a New Integer, replacing an Integer.
    <img width="449" alt="Screenshot 2023-09-11 at 12 19 32 PM" src="https://github.com/Pavan698/CS303-AS1/assets/123590108/77f8df25-ce4c-446e-b03b-12fe1644c1cc">
 5) Error Handling
 The program includes error handling using try-catch blocks to handle exceptions gracefully. If any errors occur (e.g., index out of bounds), the program will display an error message.
