@@ -1,4 +1,6 @@
 #include "myarray.h"
+#include <iostream>
+#include <stdexcept> // Include the standard exception header
 
 int main() {
     MyArray myArray;
