@@ -1,5 +1,7 @@
 #ifndef MYARRAY_H
 #define MYARRAY_H
+#include <stdexcept> // Include the standard exception header
+
 
 class MyArray {
 public:
