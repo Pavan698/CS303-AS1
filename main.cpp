@@ -1,6 +1,7 @@
 #include "myarray.h"
 #include <iostream>
-#include <stdexcept> // Include the standard exception header
+
+using namespace std;
 
 int main() {
     MyArray myArray;
@@ -9,16 +10,19 @@ int main() {
         // Use the functions as needed
         int index = myArray.find(42);
         if (index != -1) {
-            std::cout << "Integer 42 found at index " << index << std::endl;
+            cout << "Integer 42 found at index " << index << endl;
         } else {
-            std::cout << "Integer 42 not found." << std::endl;
+            cout << "Integer 42 not found." << endl;
         }
 
-        std::pair<int, int> result = myArray.modify(3, 99);
-        std::cout << "Modified integer: " << result.first << " (Old Value) -> " << result.second << " (New Value)" << std::endl;
+        pair<int, int> result = myArray.modify(3, 99);
+        cout << "Modified integer: " << result.first << " (Old Value) -> " << result.second << " (New Value)" << endl;
 
         myArray.add(100);
+        cout << "Added a new integer: 100" << endl;
+
         myArray.replace(5, 0);
+        cout << "Replaced integer at index 5 with 0" << endl;
 
         // Update the array, save to file, etc.
     }
